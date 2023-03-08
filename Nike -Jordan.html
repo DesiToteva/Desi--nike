@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 
 <html>
@@ -15,17 +17,7 @@
 	<body>
 	<div style="overflow: hidden;height: 250px;"> <!-- For Demo, Represents the 	body 	-->
 
-	<nav class="demo">
-  	<a href="#" class="brand">Nike</a>
-
-  	<!-- responsive-->
-  	<input id="bmenug" type="checkbox" class="show">
-  	<label for="bmenug" class="burger pseudo button">&#8801;</label>
-
-  	<div class="menu">
-    	<input placeholder="Search " />
- 	</div>
-	</nav>
+{% include navigation.html %}
 
 	<center><img src="9c8286a9ddb18ecc7709a490b5084c2a.jpg" alt="Desi--nike-		162e57e269a4d71e112479e39586eff4c22481df"> </center>
 
@@ -80,16 +72,15 @@
 
 	<center>
 	<div class="flex two">
-  	<div>
-    	<article class="card">
-      	<img src="b102df72-00d8-45ad-81c3-e319629e3bc6.webp">
-      	<footer>
-        <h3>Air Jordan 1 Mid</h3>
-	<h4>250лв</h4>
-        <button>Купи</button>
-      	</footer>
-    	</article>
-  	</div>
+  	
+  	
+  	
+ {% include image.html imagename= "b102df72-00d8-45ad-81c3-e319629e3bc6.webp"%}
+  	
+  	
+  	
+  	
+  	
   	<div>
     	<article class="card">
       	<img src="i1-0fea7b9c-3b5e-47c8-8b8e-ff5b3c7d5207.webp">
